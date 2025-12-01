@@ -31,7 +31,7 @@ export const App = () => {
           {nodes?.map(node => (
             <Node key={node.id} node={node} />
           ))}
-          {edges?.map(edge => (
+          {edges.map(edge => (
             <Edge key={`${edge.startNodeId}-${edge.endNodeId}`} edge={edge} />
           ))}
         </PositionProvider>

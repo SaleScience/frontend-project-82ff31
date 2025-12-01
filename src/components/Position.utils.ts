@@ -31,12 +31,12 @@ export const getNodePositions = (nodes: TNode[] | undefined) => {
   if (!nodes) return {};
   const depths = calculateNodeDepths(nodes);
   return (
-    nodes?.reduce(
+    nodes?.reduce<Record<string, { x: number; y: number }>>(
       (acc, node, index) => {
         acc[node.id] = { x: 0, y: index * 100 };
         return acc;
       },
-      {} as Record<string, { x: number; y: number }>
+      {}
     ) ?? {}
   );
 };
