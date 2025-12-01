@@ -4,6 +4,7 @@ This coding exercise is confidential and should not be shared, posted, or reused
 
 ## Getting started
 
+You can pull down this code and use your local editor, or use Codesandbox.
 Click here to open in Codesandbox → https://codesandbox.io/p/github/SaleScience/frontend-project-82ff31
 
 ## Instructions
