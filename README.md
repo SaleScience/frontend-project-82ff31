@@ -1,4 +1,4 @@
-# SaleScience frontend coding interview
+# Todai frontend coding interview
 
 This coding exercise is confidential and should not be shared, posted, or reused outside of the interview process. Please respect your NDA and the integrity of the interview process.
 
